@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Urbanist&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+main {
+    min-height: 70vh;
+}
+
+h1,
+p {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Roboto';
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+/* BARRA DE NAVEGACION */
+
+nav.navbar {
+    background-color: #46166B !important;
+    display: flex;
+    justify-content: end;
+    width: 100% !important;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 16px;
+    padding-right: 15px;
+}
+
+a.nav-link.active {
+    font-size: 18px;
+}
+
+a.navbar-brand {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.button-border {
+    border-color: white;
+    border-width: 2px;
+}
+
+.burguer-line {
+    border-color: white;
+    border-width: 2px;
+}
+
+/* INICIO */
+
+.principal {
+    max-width: 100%;
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.principal-text {
+    display: block;
+    margin: 250px 80px;
+    width: 500px;
+
+}
+
+.principal-text p,
+.principal-text button {
+    margin: 5px;
+}
+
+.inicio-foto {
+    max-width: 100vw;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.inicio-foto img {
+    width: 100%;
+    /* min-width: 100%; */
+}
+
+.boldtype {
+    font-weight: bold;
+}
+
+.grad-button {
+    background: linear-gradient(to right, #4b0082, rgb(73, 73, 197));
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.grad-button:hover {
+    background: #4B0082;
+    transition: .5s;
+}
+
+.grad-button:active {
+    background: #9e9e9e;
+}
+
+/* CONTACTO */
+
+.contact-title {
+    text-align: center;
+    margin-top: 10px;
+}
+
+form {
+    background-color: rgb(26, 26, 26);
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 2px 5px #888888;
+    color: white;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-image: linear-gradient(to right, #4b0082, rgb(73, 73, 197));
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* SOBRE MÍ */
+
+.article-bio {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.article-bio img {
+    width: 400px;
+}
+
+.article-bio p {
+    display: inline-block;
+    flex-direction: row;
+    width: 400px;
+    margin: 20px;
+    padding: 5px;
+}
+
+.text {
+    width: 75vh;
+}
+
+.text button {
+    display: block;
+    margin: auto;
+}
+
+.title-about-me {
+    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+    margin-left: 452px;
+}
+
+/* Info */
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.price-details {
+    margin-top: 20px;
+}
+
+.price-details p {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+.price-details p .price {
+    color: #4b0082;
+}
+
+.details-info {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#details-toggle:checked+.details-info {
+    display: block;
+}
+
+label[for="details-toggle"] {
+    display: inline-block;
+    background-image: linear-gradient(to right, #4b0082, rgb(73, 73, 197));
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+label[for="details-toggle"]:hover,
+label[for="details-toggle"]:focus {
+    color: #4b0082;
+}
+
+.info-clases {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    width: 800px;
+    overflow: hidden;
+    padding: 5px;
+    border-radius: 30px;
+    box-shadow: 0px 2px 5px #888888;
+}
+
+.info-clases img {
+    width: 470px;
+}
+
+.info-clases ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.title-info {
+    display: flex;
+    width: 1445px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    height: 150px;
+    font-size: 30px;
+}
+
+.price-details p {
+    color: #fff;
+    display: flex;
+    width: 730px;
+    height: 70px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: flex-start;
+    font-size: 15px;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #333333;
+    min-height: 10vh;
+    height: 150px;
+    opacity: 85%;
+}
+
+.redes,
+.contact-elements {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333333;
+    margin: 10px;
+}
+
+.redes div {
+    background-color: #161616;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.redes a {
+    color: white;
+    text-decoration: none;
+}
+
+.copy {
+    text-align: center;
+}
+
+@media (max-width:768px) {
+
+    .principal-text {
+        margin: 200px 5px;
+    }
+
+    /* .inicio-foto img {
+        width: 472px;
+    } */
+}
+
+@media (min-width: 992px) {
+
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 626px) {
+
+    .text-container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    /* .inicio-foto {
+        margin: auto;
+        width: 440px;
+    } */
+
+}
+
+@media (max-width: 425px) {
+
+    /* .inicio-foto {
+        margin-top: 20px;
+        width: 370px;
+    } */
+
+    .principal-text {
+        margin: 93px 49px;
+        width: 349px;
+    }
+
+}
