@@ -127,6 +127,10 @@ a.navbar-brand {
 
 /* CONTACTO */
 
+#contact-body {
+    background-color: rgb(36, 36, 36);
+}
+
 .contact-title {
     text-align: center;
     margin-top: 10px;
@@ -349,10 +353,6 @@ footer {
     .principal-text {
         margin: 200px 5px;
     }
-
-    /* .inicio-foto img {
-        width: 472px;
-    } */
 }
 
 @media (min-width: 992px) {
@@ -372,19 +372,9 @@ footer {
         justify-content: space-between;
     }
 
-    /* .inicio-foto {
-        margin: auto;
-        width: 440px;
-    } */
-
 }
 
 @media (max-width: 425px) {
-
-    /* .inicio-foto {
-        margin-top: 20px;
-        width: 370px;
-    } */
 
     .principal-text {
         /* margin: 93px 49px; */
