@@ -134,6 +134,7 @@ a.navbar-brand {
 .contact-title {
     text-align: center;
     margin-top: 10px;
+    color: whitesmoke;
 }
 
 form {
@@ -188,7 +189,8 @@ input[type="submit"]:hover {
 }
 
 .article-bio img {
-    width: 400px;
+    height: 758px;
+    border-radius: 30px;
 }
 
 .article-bio p {
@@ -206,13 +208,14 @@ input[type="submit"]:hover {
 .text button {
     display: block;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .title-about-me {
     font-size: 50px;
     text-align: center;
     margin: 10px;
-    margin-left: 452px;
+    margin-left: 529px;
 }
 
 /* Info */
@@ -227,12 +230,12 @@ input[type="submit"]:hover {
     box-sizing: inherit;
 }
 
-.contact-p p {
+.info-p p {
     margin: 0;
     color: rgb(26, 26, 26);
 }
 
-.contact-main {
+.info-main {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -243,11 +246,11 @@ input[type="submit"]:hover {
     color: #224;
 }
 
-.contact p:not(:last-child) {
+.info p:not(:last-child) {
     margin-bottom: 1.5em;
 }
 
-#body-contact {
+#body-info {
     min-height: 100vh;
     color: #224;
     background:
@@ -302,6 +305,10 @@ footer {
     border-radius: 50%;
 }
 
+.img-whatsapp img {
+    width: 20px;
+}
+
 .redes a {
     color: white;
     text-decoration: none;
@@ -316,6 +323,15 @@ footer {
     .principal-text {
         margin: 200px 5px;
     }
+
+    .text button {
+        margin-bottom: 20px;
+        margin-left: 130px;
+    }
+
+    .mi-main {
+        padding: 30px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -328,10 +344,10 @@ footer {
 
 }
 
-@media (max-width:948px) {
+@media (max-width: 948px) {
 
     .title-about-me {
-        font-size: 50px;
+        font-size: 30px;
         text-align: center;
         margin: 10px;
     }
