@@ -278,6 +278,56 @@ input[type="submit"]:hover {
     color: #446;
 }
 
+/* INSPIRACION */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "video-1 video-2 ."
+        "video-3 video-4 ."
+        "video-5 video-6 .";
+}
+
+.container {
+    margin: 0;
+    width: 100vw;
+}
+
+.container iframe {
+    width: 600px;
+    padding: 10px;
+}
+
+.inspo-title h1 {
+    text-align: center;
+}
+
+.video-1 {
+    grid-area: video-1;
+}
+
+.video-2 {
+    grid-area: video-2;
+}
+
+.video-3 {
+    grid-area: video-3;
+}
+
+.video-4 {
+    grid-area: video-4;
+}
+
+.video-5 {
+    grid-area: video-5;
+}
+
+.video-6 {
+    grid-area: video-6;
+}
 
 /* FOOTER */
 
