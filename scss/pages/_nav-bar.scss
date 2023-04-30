@@ -1,0 +1,40 @@
+nav.navbar {
+    background-color: $purple-color !important;
+    display: flex;
+    justify-content: end;
+    width: 100% !important;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: $light-color;
+    font-family: $text;
+    font-size: 16px;
+    padding-right: 15px;
+}
+
+a.nav-link.active {
+    font-size: 18px;
+}
+
+a.navbar-brand {
+    font-family: $text;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.burguer-line {
+    border-color: $light-color;
+    border-width: 2px;
+    background-image: url(../imagenes/menu.png);
+}
+
+@media (min-width: 992px) {
+
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        justify-content: flex-end;
+    }
+
+}

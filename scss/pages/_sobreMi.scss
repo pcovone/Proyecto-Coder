@@ -1,0 +1,58 @@
+.article-bio {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    & img {
+        height: 758px;
+        border-radius: 30px;
+    }
+
+    & p {
+        display: inline-block;
+        flex-direction: row;
+        width: 400px;
+        margin: 20px;
+        padding: 5px;
+    }
+}
+
+.text {
+    width: 75vh;
+
+    & button {
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+
+.title-about-me {
+    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+    margin-left: 529px;
+}
+
+@media (max-width: 948px) {
+
+    .title-about-me {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .text {
+        width: 75vh;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 10px
+    }
+
+}
+
+@media (max-width: 436px) {
+    .article-bio img {
+        height: 600px;
+    }
+}

@@ -1,0 +1,17 @@
+.grad-button-style {
+    background: $grad-color;
+    color: $light-color;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+
+    &:hover {
+        background: #4B0082;
+        transition: .5s;
+    }
+
+    &:active {
+        background: $light-gray;
+    }
+}

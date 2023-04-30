@@ -1,0 +1,15 @@
+@import './utilities/typo';
+@import './utilities/reset';
+@import './utilities/color';
+
+// SECCIONES
+
+@import './pages/body';
+@import './pages/inicio';
+@import './pages/contact';
+@import './pages/sobreMi';
+@import './pages/info';
+@import './pages/footer';
+@import './pages/nav-bar';
+
+@import './utilities/extend';

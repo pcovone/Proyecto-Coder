@@ -1,0 +1,43 @@
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: $principal-gray;
+    min-height: 10vh;
+    height: 150px;
+    opacity: 0.85;
+
+    .redes,
+    .contact-elements {
+        display: flex;
+        justify-content: space-around;
+        background-color: $principal-gray;
+        margin: 10px;
+        text-decoration: none;
+    }
+
+    .contact-elements a {
+        text-decoration: none;
+        color: $light-color;
+    }
+
+    .redes div {
+        background-color: $form-color;
+        color: $light-color;
+        padding: 10px;
+        border-radius: 50%;
+    }
+
+    .img-whatsapp img {
+        width: 20px;
+    }
+
+
+    a {
+        color: $light-color;
+        text-decoration: none;
+    }
+
+    .copy {
+        text-align: center;
+    }
+}

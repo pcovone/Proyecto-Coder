@@ -1,0 +1,25 @@
+body {
+    background-color: $dark-color;
+    font-family: $text;
+    min-height: 100vh;
+}
+
+main {
+    min-height: 70vh;
+}
+
+h1,
+p {
+    font-family: $text;
+    color: $light-color;
+}
+
+.logo {
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Roboto';
+
+    a {
+        text-decoration: none;
+    }
+}

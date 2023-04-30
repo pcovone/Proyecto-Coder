@@ -1,0 +1,50 @@
+#contact-body {
+    background-color: $form-color;
+}
+
+.contact-title {
+    text-align: center;
+    margin-top: 10px;
+    color: $light-color;
+}
+
+form {
+    background-color: $principal-gray;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 2px 5px $light-gray;
+    color: $light-color;
+    margin-bottom: 10px;
+
+    label {
+        display: block;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid $light-gray;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        resize: vertical;
+        background-color: $form-color;
+        color: $light-color;
+    }
+
+    input[type="submit"] {
+        @extend .grad-button;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: $green-color;
+    }
+}
