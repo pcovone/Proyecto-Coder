@@ -62,3 +62,16 @@
         margin-top: 130px;
     }
 }
+
+@media (max-width: 626px) {
+    .text-container {
+        align-items: center;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .principal-text p {
+        text-align: center;
+        width: 415px;
+    }
+}

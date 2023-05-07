@@ -64,6 +64,15 @@ p {
   .inicio-foto img {
     margin-top: 130px; } }
 
+@media (max-width: 626px) {
+  .text-container {
+    align-items: center;
+    align-content: flex-start;
+    flex-wrap: wrap; }
+  .principal-text p {
+    text-align: center;
+    width: 415px; } }
+
 #contact-body {
   background-color: #1a1a1a; }
 
@@ -135,15 +144,24 @@ form {
     font-size: 30px;
     text-align: center; }
   .text {
-    width: 75vh;
+    width: 75vw;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    margin: 10px; } }
+    flex-wrap: wrap; } }
 
 @media (max-width: 436px) {
   .article-bio img {
     height: 600px; } }
+
+@media (max-width: 948px) {
+  .title-about-me {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 0; } }
+
+@media (max-width: 853px) {
+  .text {
+    width: 100vw; } }
 
 :root {
   font-size: 1rem;
