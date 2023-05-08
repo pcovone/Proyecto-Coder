@@ -54,10 +54,6 @@
 
 @media (max-width: 425px) {
 
-    .principal-text {
-        width: 349px;
-    }
-
     .inicio-foto img {
         margin-top: 130px;
     }
@@ -71,7 +67,7 @@
     }
 
     .principal-text p {
-        text-align: center;
-        width: 415px;
+        width: 100vw;
+        max-width: 415px;
     }
 }
