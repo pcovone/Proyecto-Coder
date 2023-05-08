@@ -6,7 +6,7 @@
 .principal-text {
     display: block;
     margin: 250px 80px;
-    width: 500px;
+    max-width: 100%;
 
     p,
     button {
@@ -38,7 +38,7 @@
 @media (max-width:768px) {
 
     .principal-text {
-        margin: 200px 5px;
+        margin: 81px 0;
     }
 }
 
@@ -56,12 +56,12 @@
 
     .inicio-foto img {
         margin-top: 130px;
+        max-width: 100%;
     }
 }
 
 @media (max-width: 626px) {
     .text-container {
-        align-items: center;
         align-content: flex-start;
         flex-wrap: wrap;
     }
