@@ -68,7 +68,6 @@ p {
     align-content: flex-start;
     flex-wrap: wrap; }
   .principal-text p {
-    width: 100vw;
     max-width: 415px; } }
 
 #contact-body {
